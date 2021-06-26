@@ -1,0 +1,12 @@
+#Function
+
+def hello_function()
+    return "hello"
+    
+------------------------------------
+
+#unit-test
+
+def test_hello_function():
+    string = "hello"
+    assert ( string == hello_function()) is True
